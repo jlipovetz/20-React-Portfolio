@@ -1,0 +1,31 @@
+.card {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: var(--border-radius);
+  padding: 10px;
+  flex: 0 0 300px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  margin: 20px;
+  font-size: 24px;
+}
+
+.card > header {
+  padding: 0px;
+}
+
+.card > img {
+  width: 80%;
+}
+
+h2 {
+  color: #13293d;
+}
+
+.projects {
+  flex: 1;
+  background-color: var(--white);
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,16 @@
+* {
+  margin:0;
+  padding:0;  
+}
+
+main {
+  text-align: center;
+}
+
+@media screen and (max-width: 975px) {
+  header,
+  footer,
+  main {
+    flex-direction: column;
+  }
+}
